@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PRACTICAL 4 // MARKOVICH VLAD</title>
+  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        article {
+            background-color: #222;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.8em;
+            font-weight: 600;
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        mark {
+            background-color: #ff6600;
+            color: #fff;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        blockquote {
+            background-color: #444;
+            border-left: 5px solid #ffcc00;
+            padding: 10px 20px;
+            margin: 0;
+        }
+
+        blockquote p {
+            margin: 0;
+        }
+
+        cite {
+            display: block;
+            text-align: right;
+            font-style: italic;
+        }
+
+        ol, ul {
+            margin-bottom: 20px;
+        }
+
+        ol {
+            list-style-type: decimal;
+        }
+
+        ul {
+            list-style-type: disc;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #555;
+        }
+
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        thead th {
+            background-color: #444;
+            color: #fff;
+            text-align: left;
+        }
+
+        tfoot th {
+            background-color: #444;
+            color: #fff;
+            text-align: left;
+        }
+
+        tbody td {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+        
+</head>
+<body>
+    <header>
+        <h1>PRACTICAL 4 REPORT  MARKOVICH VLAD</h1>
+    </header>
+    <main>
+        <section id="text">
+            <article id="text__paragraphs">
+                <h2>Understanding CSS Specificity</h2>
+                <p>
+                    <mark>CSS specificity</mark> determines which style rules apply when multiple conflicting rules target the same element. It's calculated based on the combination of selectors used in the rule.
+                </p>
+                <h2>Exploring Complex Selectors</h2>
+                <p>
+                    <mark>Complex selectors</mark> in CSS involve combining multiple simple selectors to target elements more specifically. They include descendant selectors, child selectors, and more.
+                </p>
+                <h2>Differentiating Pseudo-classes and Pseudo-elements</h2>
+                <p>
+                    <mark>Pseudo-classes</mark> specify a special state of the selected element, like ":hover" for mouse-hover effect. <mark>Pseudo-elements</mark> target specific parts of an element, such as "::before" and "::after" for inserting content before and after an element.
+                </p>
+            </article>
+            <article id="text__blockquotes">
+                <h2>Blockquotes</h2>
+                <blockquote>
+                <p>A stylish block quotation is a visually distinct excerpt from the main text, typically displayed with indentation and a different typeface.</p>
+                    <cite>Said no one, ever.</cite>
+                </blockquote>
+            </article>
+            <article id="text__lists">
+                <h2>Lists</h2>
+                <h3>Definition List</h3>
+                <dl>
+                    <dt>Definition List Title</dt>
+                    </dd>
+                </dl>
+                <h3>Ordered List</h3>
+                <ol>
+                    <li>List Item 1</li>
+                    <li>List Item 2</li>
+                    <li>List Item 3</li>
+                </ol>
+                <h3>Unordered List</h3>
+                <ul>
+                    <li>List Item 1</li>
+                    <li>List Item 2</li>
+                    <li>List Item 3</li>
+                </ul>
+            </article>
+            <article id="text__tables">
+                <h2>Tabular Data</h2>
+                <table>
+                    <caption>Table Caption</caption>
+                    <thead>
+                        <tr>
+                            <th>Heading 1</th>
+                            <th>Heading 2</th>
+                            <th>Heading 3</th>
+                            <th>Heading 4</th>
+                            <th>Heading 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cell 1</td>
+                            <td>Cell 2</td>
+                            <td>Cell 3</td>
+                            <td>Cell 4</td>
+                            <td>Cell 5</td>
+                        </tr>
+                        <tr>
+                            <td>Cell 1</td>
+                            <td>Cell 2</td>
+                            <td>Cell 3</td>
+                            <td>Cell 4</td>
+                            <td>Cell 5</td>
+                        </tr>
+                        <tr>
+                            <td>Cell 1</td>
+                            <td>Cell 2</td>
+                            <td>Cell 3</td>
+                            <td>Cell 4</td>
+                            <td>Cell 5</td>
+                        </tr>
+                        <tr>
+                            <td>Cell 1</td>
+                            <td>Cell 2</td>
+                            <td>Cell 3</td>
+                            <td>Cell 4</td>
+                            <td>Cell 5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>Footer 1</th>
+                            <th>Footer 2</th>
+                            <th>Footer 3</th>
+                            <th>Footer 4</th>
+                            <th>Footer 5</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
